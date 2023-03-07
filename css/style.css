@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 18px;
+}
+
+#grid {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+
+  width: 400px;
+  height: 400px;
+
+  margin: 0 auto;
+
+  border: 1px solid gray;
+}
+
+#grid .square {
+
+  border: 1px solid red;
+
+}
+
+#grid .square.empty {
+
+  background-color: aquamarine;
+
+}
+
+#grid .square.bomb {
+
+  background-color: red;
+
+}
